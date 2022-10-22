@@ -22,8 +22,8 @@ export default function App(){
 <div className="container">
 
     <h1 className="mt-3">Carrinho de Compras</h1>
-    <span className="text-primary ms-3">Qtde de Itens do carrinho: {items}<br></br></span>
-    <span className="text-primary ms-3">Valor total da compra R$ {amount},00</span>
+    <span className="text-primary ms-3 qtcart">Qtde de Itens do carrinho: {items}<br></br></span>
+    <span className="text-primary ms-3 qtcart">Valor total da compra R$ {amount},00</span>
   <hr/>
     {/* Comunicação com a api */}
     {products.length} Produtos Encontrados no carrinho (Api)
