@@ -22,8 +22,8 @@ export default function App(){
 <div className="container">
 
     <h1 className="mt-3">Carrinho de Compras</h1>
-    <span className="text-primary ms-3">{items}</span>
-    <span className="text-primary ms-3">{amount}</span>
+    <span className="text-primary ms-3">Qtde de Itens do carrinho: {items}<br></br></span>
+    <span className="text-primary ms-3">Valor total da compra R$ {amount},00</span>
   <hr/>
     {/* Comunicação com a api */}
     {products.length} Produtos Encontrados no carrinho (Api)
@@ -47,6 +47,11 @@ export default function App(){
   <div>
     <span className="me-3">Mouse R$20,00</span>
     <button className="btn btn-success" onClick={() => add (20)}>Adicionar ao carrinho</button>
+  </div>
+
+  <div>
+    <span className="me-3">Cadeira Gamer R$2200,00</span>
+    <button className="btn btn-success" onClick={() => add (2200)}>Adicionar ao carrinho</button>
   </div>
 
 </div>
