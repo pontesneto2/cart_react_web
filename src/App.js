@@ -39,19 +39,21 @@ export default function App(){
       )
     })}
 
-  <div>
-    <span className="me-3">Teclado R$32,00</span>
-    <button className="btn btn-success" onClick={() => add (32)}>Adicionar ao carrinho</button>
-  </div>
+  <div className="products-container">
+    <div>
+      <span className="me-3">Teclado R$32,00<br></br></span>
+      <button className="btn btn-success btn-sm" onClick={() => add (32)}>Adicionar ao carrinho</button>
+    </div>
 
-  <div>
-    <span className="me-3">Mouse R$20,00</span>
-    <button className="btn btn-success" onClick={() => add (20)}>Adicionar ao carrinho</button>
-  </div>
+    <div>
+      <span className="me-3">Mouse R$20,00<br></br></span>
+      <button className="btn btn-success btn-sm" onClick={() => add (20)}>Adicionar ao carrinho</button>
+    </div>
 
-  <div>
-    <span className="me-3">Cadeira Gamer R$2200,00</span>
-    <button className="btn btn-success" onClick={() => add (2200)}>Adicionar ao carrinho</button>
+    <div>
+      <span className="me-3">Cadeira Gamer R$2200,00<br></br></span>
+      <button className="btn btn-success btn-sm" onClick={() => add (2200)}>Adicionar ao carrinho</button>
+    </div>
   </div>
 
 </div>

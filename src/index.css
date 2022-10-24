@@ -22,3 +22,9 @@ h1{
   align-items: center;
   justify-content: center;
 }
+
+.products-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
